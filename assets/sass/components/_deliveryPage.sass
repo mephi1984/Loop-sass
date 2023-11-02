@@ -1,0 +1,33 @@
+.deliveryPage
+    margin-top: 9rem
+
+    @media screen and (max-width: 768px)
+        margin-top: 14rem
+    @media screen and (max-width: 320px)
+        margin-top: 16rem
+
+    &__content
+        display: flex
+        margin-bottom: 2rem
+        @media screen and (max-width: 768px)
+            display: flex
+            flex-direction: column
+    
+    &__info
+        flex: 1
+        display: flex
+        align-items: center
+        flex-direction: column
+        justify-content: center
+        gap: 0.5rem
+
+        
+
+    &__title
+        font-size: var(--h2-font-size)
+        font-weight: 500
+        @media screen and (max-width: 768px)
+            font-size: 1.2rem
+    
+    &__image
+        flex: 1
